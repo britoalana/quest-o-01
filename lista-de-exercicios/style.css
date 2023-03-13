@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #a5b4fc;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    min-height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+}
+
+.content .film,
+.content .duration{
+    display: flex;
+    flex-direction: column;
+}
+
+.content input{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+}
+
+.content .btn button{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+    background-color: #a78bfa;
+    cursor: pointer;
+}
+
+.content .btn button:hover{
+    background-color: #8b5cf6;
+}
